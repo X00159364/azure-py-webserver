@@ -1,0 +1,8 @@
+config:
+  azure-web:password: 01Dec80
+  azure-web:username: X00159364@mytudublin.ie
+  azure:clientId: f6b200fb-c5fc-4131-b412-d49a98501903
+  azure:clientSecret:
+    secure: AAABAMVY4Z2TrOea4KURLeVGJdajcAAHmTMFpf+WGt/+x+k3l+1qmEid/ONZY7qkB6XwWP7AjdLi1FIqFa3MiSXUdv4=
+  azure:subscriptionId: 4011af88-c6c9-4d2d-9f1b-2ca3a9192b15
+  azure:tenantId: 766317cb-e948-4e5f-8cec-dabc8e2fd5da
