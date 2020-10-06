@@ -2,19 +2,6 @@ pipeline {
     agent any
     
     stages {
-        stage ("Checkout code") {
-            steps {
-                // The examples repo contains several repos. To avoid checking out every single project under it,
-                // upload this project into your own repo.
-                git url: "git@github.com:X00159364/azure-py-webserver.git",
-                    // Set your credentials id value here.
-                    // See https://jenkins.io/doc/book/using/using-credentials/#adding-new-global-credentials
-                    credentialsId: "GITHUB",
-                    // You could define a new stage that specifically runs for, say, feature/* branches
-                    // and run only "pulumi preview" for those.
-                    branch: "master"            
-            }
-        } 
         
         // stage ("Install dependencies") {
         //     steps {
